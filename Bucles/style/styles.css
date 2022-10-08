@@ -1,0 +1,66 @@
+body {
+  font-size: 25px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1:hover {
+  text-decoration: underline;
+}
+
+li:hover {
+  background-color: aquamarine;
+}
+
+li {
+  display: inline-block;
+  background-color: antiquewhite;
+  padding: 0.4em;
+  border-radius: 0.4em;
+  border: 2px solid black;
+  margin-top: 0.3em;
+  margin-right: 0.3em;
+}
+
+ol li a {
+  text-decoration: none;
+  color: blue;
+}
+
+div#text {
+  margin-top: 1em;
+  text-align: center;
+  font-weight: bold;
+  background-color: aqua;
+  padding: 0.5em;
+}
+
+div#tableServ {
+  margin-top: 1em;
+}
+
+div#titulo {
+  margin-top: 0.5em;
+  text-align: center;
+  padding: 0.5em;
+  font-weight: bold;
+  background-color: rosybrown;
+  color: green;
+  border: 2px solid blue;
+  border-radius: 0.2em;
+}
+
+table tr td:first-child {
+  background-color: olivedrab;
+  font-weight: bold;
+}
+
+table, tr, td {
+  border: 1px solid;
+  padding: 0.5em;
+  border-collapse: collapse;
+}
